@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content,
+.features,
+.contact {
+    padding: 20px;
+}
+
+.features {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.about-text {
+    flex: 1; /* Take remaining space */
+}
+
+.about-image {
+    margin-left: 20px;
+}
+
+.about-image img {
+    max-width: 100%; /* Ensure image doesn't exceed container */
+    height: auto; /* Maintain aspect ratio */
+}
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    display: inline-block;
+    vertical-align: top; /* Align items to the top */
+    margin-right: 20px; /* Add spacing between items */
+}
+
+.features li img {
+    display: block; /* Ensure images are block elements */
+    max-width: 100px; /* Set maximum width for the images */
+    height: auto;
+}
